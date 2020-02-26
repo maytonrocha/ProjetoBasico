@@ -1,15 +1,15 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ProjetoBasico": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "inlineTemplate": true,
           "inlineStyle": true,
-          "skipTests": true
+          "skipTests": true,
+          "spec": false
         },
         "@schematics/angular:class": {
           "skipTests": true
@@ -104,6 +104,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ProjetoBasico"
+    }
+  },
+  "defaultProject": "ProjetoBasico",
+  "cli": {
+    "analytics": "b08991ae-ea9c-4a96-bdde-d4c87b01d91b"
+  }
 }
