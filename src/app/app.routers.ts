@@ -5,7 +5,7 @@ import { SobreComponent } from './institucional/sobre/sobre.component';
 
 export const rootRouterConfig: Routes = [
    { path: '', redirectTo: '/home', pathMatch: 'full'}, 
-   { path: 'nome', component: HomeComponent},
+   { path: 'home', component: HomeComponent},
    { path: 'contato', component: ContatoComponent},
    { path: 'sobre', component: SobreComponent}
 ];
